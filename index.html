@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Funny Exam Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Exam Options</h1>
+    <button onclick="handleOption(1)">Next Paper Date Time</button>
+    <button onclick="handleOption(2)">Paper Notes</button>
+    <button onclick="handleOption(3)">Leak Paper (any subject)</button>
+
+    <div id="inputs" class="hidden">
+      <select id="classSelect">
+        <option value="">Select Class</option>
+        <option value="10">10th Grade</option>
+        <option value="11">11th Grade</option>
+        <option value="12">12th Grade</option>
+      </select>
+      <select id="fieldSelect">
+        <option value="">Select Field</option>
+        <option value="MED">MED</option>
+        <option value="ENG">ENG</option>
+        <option value="ICS">ICS</option>
+      </select>
+      <button onclick="showNotes()">Submit</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
