@@ -26,23 +26,6 @@ The date sheet should have the following columns in order:
 
 Ensure the date and time formats are consistent and recognizable by JavaScript `Date` constructor.
 
-## How to Use
-
-1. Open `index.html` in a modern web browser.
-2. Upload your date sheet file (PDF, Excel, or image).
-3. Select your class and field of study.
-4. Click the **Submit** button.
-5. The next exam and time left will be displayed.
-
-## Hosting on GitHub Pages
-
-1. Create a new GitHub repository or use an existing one.
-2. Upload all files (`index.html`, `style.css`, `script.js`, and the `LIBS` folder with required libraries) to the repository.
-3. Go to the repository **Settings** > **Pages**.
-4. Under **Source**, select the branch (e.g., `main`) and root folder (`/`).
-5. Click **Save**.
-6. Your website will be published at `https://<your-username>.github.io/<repository-name>/`.
-
 ## Libraries Used
 
 - [SheetJS (xlsx)](https://sheetjs.com/) for Excel parsing.
